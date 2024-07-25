@@ -52,18 +52,15 @@ Ensure you have SSH keys generated and available at `~/.ssh/mtcazureke` and `~/.
     ```sh
     terraform apply -var 'vm_count=1' -var 'vm_size=Standard_B1s' -var 'vm_image=18.04-LTS'
     ```
-   Using the created infrastructure, I MADE a script in terraform using null_ressources to ping from one virtual machine to another.
-   For example: Virtual machine 1-> ping in ip from virtual machine 2. vm_count=2
 
-   ![1](https://github.com/user-attachments/assets/aea4b5de-f98a-4ac6-91e7-fc57ea3d4d69)
-   ![2](https://github.com/user-attachments/assets/c18ea1bd-fe21-468e-843b-8707639f4bd4)
-   ![3](https://github.com/user-attachments/assets/009cb9c8-59e1-41aa-b1f0-09bd0595e185)
-   ![4](https://github.com/user-attachments/assets/cbacbc11-9803-49ec-a6a8-8152af415ea2)
+Using the created infrastructure, I made a script in Terraform using `null_resource` to ping from one virtual machine to another.
 
+For example: Virtual machine 1 -> ping IP from virtual machine 2. `vm_count=2`
 
-
-
-
+![1](https://github.com/user-attachments/assets/aea4b5de-f98a-4ac6-91e7-fc57ea3d4d69)
+![2](https://github.com/user-attachments/assets/c18ea1bd-fe21-468e-843b-8707639f4bd4)
+![3](https://github.com/user-attachments/assets/009cb9c8-59e1-41aa-b1f0-09bd0595e185)
+![4](https://github.com/user-attachments/assets/cbacbc11-9803-49ec-a6a8-8152af415ea2)
 
 ## Resources Created
 
