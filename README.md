@@ -66,6 +66,8 @@ Using the created infrastructure, I made a script in Terraform using `null_resou
 3. **Ping Test:**
    ![4](https://github.com/user-attachments/assets/84cb7aeb-e98a-4ba5-aef4-996b229d8c10)
 
+   ![99](https://github.com/user-attachments/assets/f5254906-1402-495f-9926-997fb2fd4b81)
+
 
 ## Resources Created
 
