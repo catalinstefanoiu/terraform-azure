@@ -95,3 +95,8 @@ sudo usermod -aG docker adminuser
 sudo docker login -u "devacr20240724" -p "5GceqB05Gxl/tJCcCPAvJL2KY9rZzsZe/YywGSHt3A+ACRBT485I" devacr20240724.azurecr.io
 sudo docker pull devacr20240724.azurecr.io/nginx:latest
 sudo docker run --name nginx-container -d -p 8080:80 nginx
+
+## Azure
+We take the image from Docker and put it on the Registory container
+![99](https://github.com/user-attachments/assets/efe71567-621c-417a-8298-8a5e06bb3e7e)
+
