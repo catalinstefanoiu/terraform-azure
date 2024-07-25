@@ -53,12 +53,18 @@ Ensure you have SSH keys generated and available at `~/.ssh/mtcazureke` and `~/.
     terraform apply -var 'vm_count=1' -var 'vm_size=Standard_B1s' -var 'vm_image=18.04-LTS'
     ```
 
-Using the created infrastructure, I made a script in Terraform using `null_resource` to ping from one virtual machine to another.
+Using the created infrastructure, I made a script in Terraform using `null_resource` to ping from one virtual machine to another. For example: Virtual machine 1 pings the IP address of Virtual machine 2 when `vm_count=2`.
 
-For example: Virtual machine 1 -> ping IP from virtual machine 2. `vm_count=2`
+### Deployment Outputs
 
-![3](https://github.com/user-attachments/assets/009cb9c8-59e1-41aa-b1f0-09bd0595e185)
-![4](https://github.com/user-attachments/assets/cbacbc11-9803-49ec-a6a8-8152af415ea2)
+1. **Changes to Outputs:**
+   ![Changes to Outputs](./mnt/data/Screenshot%202024-07-24%20130817.png)
+
+2. **SSH Connection:**
+   ![SSH Connection](./mnt/data/Screenshot%202024-07-24%20130910.png)
+
+3. **Ping Test:**
+   ![Ping Test](./mnt/data/Screenshot%202024-07-24%20130954.png)
 
 ## Resources Created
 
@@ -95,8 +101,3 @@ sudo usermod -aG docker adminuser
 sudo docker login -u "devacr20240724" -p "5GceqB05Gxl/tJCcCPAvJL2KY9rZzsZe/YywGSHt3A+ACRBT485I" devacr20240724.azurecr.io
 sudo docker pull devacr20240724.azurecr.io/nginx:latest
 sudo docker run --name nginx-container -d -p 8080:80 nginx
-
-## Azure
-We take the image from Docker and put it on the Registory container
-![99](https://github.com/user-attachments/assets/efe71567-621c-417a-8298-8a5e06bb3e7e)
-
