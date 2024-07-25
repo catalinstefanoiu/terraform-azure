@@ -57,8 +57,6 @@ Using the created infrastructure, I made a script in Terraform using `null_resou
 
 For example: Virtual machine 1 -> ping IP from virtual machine 2. `vm_count=2`
 
-![1](https://github.com/user-attachments/assets/aea4b5de-f98a-4ac6-91e7-fc57ea3d4d69)
-![2](https://github.com/user-attachments/assets/c18ea1bd-fe21-468e-843b-8707639f4bd4)
 ![3](https://github.com/user-attachments/assets/009cb9c8-59e1-41aa-b1f0-09bd0595e185)
 ![4](https://github.com/user-attachments/assets/cbacbc11-9803-49ec-a6a8-8152af415ea2)
 
