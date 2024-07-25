@@ -58,13 +58,14 @@ Using the created infrastructure, I made a script in Terraform using `null_resou
 ### Deployment Outputs
 
 1. **Changes to Outputs:**
-   ![Changes to Outputs](./mnt/data/Screenshot%202024-07-24%20130817.png)
+   ![2](https://github.com/user-attachments/assets/a2a5aea6-3f25-48e7-b9ee-89ea145acb2e)
 
 2. **SSH Connection:**
-   ![SSH Connection](./mnt/data/Screenshot%202024-07-24%20130910.png)
+   ![3](https://github.com/user-attachments/assets/ff51abba-e193-4b33-9948-6cae7e19b401)
 
 3. **Ping Test:**
-   ![Ping Test](./mnt/data/Screenshot%202024-07-24%20130954.png)
+   ![4](https://github.com/user-attachments/assets/84cb7aeb-e98a-4ba5-aef4-996b229d8c10)
+
 
 ## Resources Created
 
